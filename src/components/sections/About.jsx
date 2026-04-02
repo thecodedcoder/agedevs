@@ -60,7 +60,7 @@ const About = () => {
               className="space-y-4"
             >
               <p className="text-sm md:text-base text-light-600 dark:text-light-400 leading-relaxed">
-                I'm Akande Gbolahan, a blockchain developer, technical instructor, and aspiring Developer Relations professional based in Nigeria. My journey into tech started with web development during my undergraduate years studying Statistics at the Federal University of Agriculture, Abeokuta (FUNAAB). Over the past 5+ years, I've evolved from building traditional websites to architecting decentralized applications across multiple blockchain ecosystems.
+                I'm Akande Gbolahan, a data analyst, AI automation specialist, and blockchain engineer based in Nigeria. I hold a Statistics background from the Federal University of Agriculture, Abeokuta (FUNAAB), which grounds my analytical thinking. Over 5+ years I've built customer segmentation pipelines, AI-powered chatbots, automated Python workflows, and decentralised applications — delivering end-to-end solutions across data, AI, and Web3.
               </p>
               <p className="text-sm md:text-base text-light-600 dark:text-light-400 leading-relaxed">
                 My entry into blockchain was through the Stacks ecosystem (Bitcoin's programmable Layer 2), where I learned Clarity smart contract development and quickly became involved in developer onboarding. Through Web3Bridge Nigeria, I introduced Web2 developers transitioning into Web3 to Clarity and Stacks. Ken Rogers, Stacks' Head of DevRel, personally acknowledged the volume of referrals I generated and recognized my natural fit for Developer Relations.

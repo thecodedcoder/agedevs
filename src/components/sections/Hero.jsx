@@ -5,13 +5,13 @@ import { socialLinks } from '@data/socialLinks'
 import ME from '@assets/images/profile/proF1.png'
 
 const ecosystemBadges = [
-  { name: 'Bitcoin', color: '#F7931A' },
-  { name: 'Stacks', color: '#5546FF' },
-  { name: 'Ethereum', color: '#627EEA' },
-  { name: 'Base', color: '#0052FF' },
-  { name: 'Celo', color: '#35D07F' },
-  { name: 'Sui', color: '#4DA2FF' },
-  { name: 'ICP', color: '#29ABE2' },
+  { name: 'Python', color: '#3776AB' },
+  { name: 'Pandas', color: '#150458' },
+  { name: 'SQL', color: '#336791' },
+  { name: 'Node.js', color: '#339933' },
+  { name: 'Groq API', color: '#F55036' },
+  { name: 'Stacks / Bitcoin L2', color: '#5546FF' },
+  { name: 'Solidity', color: '#627EEA' },
 ]
 
 const containerVariants = {
@@ -66,7 +66,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-base text-light-600 dark:text-light-400 mb-6 max-w-lg leading-relaxed"
             >
-              Building, teaching, and documenting decentralized systems across 7+ blockchain ecosystems, from Bitcoin Layer 2 to Sui to ICP.
+              I turn raw data into decisions, build AI-powered automation tools, and architect blockchain systems — with 5+ years of hands-on delivery across data analysis, chatbot development, and multi-chain DApps.
             </motion.p>
 
             {/* Ecosystem badges */}
