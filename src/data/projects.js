@@ -10,7 +10,7 @@ export const projects = [
     github: 'https://github.com/thecodedcoder/retail-sales-performance-analysis',
     demo: '',
     ecosystem: 'data',
-    achievement: 'Fully automated report generation pipeline — from raw CSV to branded multi-page PDF with zero manual steps.',
+    achievement: 'Fully automated report generation pipeline: from raw CSV to branded multi-page PDF with zero manual steps.',
   },
   {
     id: 'rfm-customer-segmentation',
@@ -62,7 +62,7 @@ export const projects = [
     github: 'https://github.com/thecodedcoder/bright-horizons-care-chatbot',
     demo: '',
     ecosystem: 'ai',
-    achievement: 'Dual-audience routing — family enquiries and carer queries handled from separate knowledge domains in one interface.',
+    achievement: 'Dual-audience routing: family enquiries and carer queries handled from separate knowledge domains in one interface.',
   },
   {
     id: 'workshield',
