@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import StatCard from '@components/ui/StatCard'
 import { BiCodeBlock, BiGlobe, BiTrophy, BiCode, BiPen, BiTime } from 'react-icons/bi'

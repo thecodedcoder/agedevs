@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { FiPlus } from 'react-icons/fi'
 import SectionHeading from '@components/ui/SectionHeading'

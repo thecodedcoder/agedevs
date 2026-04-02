@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { FaYoutube, FaBlog, FaMedium } from 'react-icons/fa'
 import { SiHashnode } from 'react-icons/si'

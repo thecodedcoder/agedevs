@@ -1,3 +1,5 @@
+'use client'
+
 import { createContext, useContext, useState, useEffect } from 'react'
 
 const ThemeContext = createContext()
@@ -9,11 +11,12 @@ export const useTheme = () => {
 }
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState(() => {
+  const [theme, setTheme] = useState('dark')
+
+  useEffect(() => {
     const saved = localStorage.getItem('theme')
-    if (saved) return saved
-    return 'dark'
-  })
+    if (saved) setTheme(saved)
+  }, [])
 
   useEffect(() => {
     const root = document.documentElement

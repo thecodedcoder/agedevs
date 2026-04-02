@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans leading-relaxed bg-light-100 text-dark-700 antialiased;
+  }
+
+  .dark body {
+    @apply bg-dark-900 text-light-100;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-400/40 rounded-full;
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    @apply bg-light-500/20 rounded-full;
+  }
+
+  ::selection {
+    @apply bg-stacks/30 text-white;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-btc via-stacks to-accent;
+  }
+
+  .glass-card {
+    @apply bg-white/80 dark:bg-dark-700/50 backdrop-blur-sm border border-light-300 dark:border-white/10 rounded-2xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:border-stacks/30 dark:hover:border-stacks/30 transition-all duration-300 hover:shadow-lg hover:shadow-stacks/5;
+  }
+
+  .mesh-bg {
+    @apply bg-mesh-gradient-light dark:bg-mesh-gradient;
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .dark .grid-bg {
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}

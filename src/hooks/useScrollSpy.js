@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react'
 
 const useScrollSpy = (sectionIds, offset = 100) => {

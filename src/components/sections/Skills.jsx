@@ -1,3 +1,5 @@
+'use client'
+
 import SectionHeading from '@components/ui/SectionHeading'
 import SkillCategory from '@components/ui/SkillCategory'
 import { skillCategories } from '@data/skills'

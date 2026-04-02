@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { BsSun, BsMoonStars } from 'react-icons/bs'
 import { useTheme } from '@context/ThemeContext'

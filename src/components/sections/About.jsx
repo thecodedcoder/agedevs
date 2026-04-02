@@ -1,8 +1,11 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { FaAward } from 'react-icons/fa'
 import { BiCodeBlock, BiGlobe, BiGroup, BiBrain, BiBarChartAlt2 } from 'react-icons/bi'
 import SectionHeading from '@components/ui/SectionHeading'
 import StatCard from '@components/ui/StatCard'
+import Image from 'next/image'
 import ME from '@assets/images/profile/proF3.jpeg'
 
 const stats = [
@@ -33,10 +36,12 @@ const About = () => {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-stacks to-accent opacity-20 blur-xl" />
               <div className="relative rounded-2xl overflow-hidden border-2 border-light-300 dark:border-white/10 hover:border-stacks/40 dark:hover:border-accent/40 transition-colors duration-500">
                 <div className="absolute inset-0 bg-gradient-to-br from-stacks/10 to-accent/10" />
-                <img
+                <Image
                   src={ME}
                   alt="Akande Gbolahan"
                   className="relative w-full aspect-square object-cover"
+                  width={500}
+                  height={500}
                 />
               </div>
             </div>

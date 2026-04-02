@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { FiGithub, FiExternalLink, FiLock } from 'react-icons/fi'
 import Badge from './Badge'

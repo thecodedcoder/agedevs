@@ -1,3 +1,5 @@
+'use client'
+
 import { socialLinks } from '@data/socialLinks'
 
 const footerLinks = [

@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { navItems } from '@data/navigation'
 import useScrollSpy from '@hooks/useScrollSpy'

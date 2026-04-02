@@ -1,3 +1,5 @@
+'use client'
+
 const colorMap = {
   btc: 'bg-btc/10 text-btc border-btc/20 dark:bg-btc/15 dark:text-btc-light',
   stacks: 'bg-stacks/10 text-stacks border-stacks/20 dark:bg-stacks/15 dark:text-stacks-light',

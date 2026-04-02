@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 
 const TimelineItem = ({ org, role, period, description, impact, isLast = false, delay = 0 }) => {

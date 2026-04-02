@@ -1,7 +1,10 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { FiDownload, FiArrowDown } from 'react-icons/fi'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { socialLinks } from '@data/socialLinks'
+import Image from 'next/image'
 import ME from '@assets/images/profile/proF1.png'
 
 const ecosystemBadges = [
@@ -130,11 +133,13 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-btc via-stacks to-accent blur-2xl opacity-20 animate-pulse-glow" />
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full p-1 bg-gradient-to-br from-btc via-stacks to-accent">
-                <div className="w-full h-full rounded-full overflow-hidden bg-light-200 dark:bg-dark-800">
-                  <img
+                <div className="relative w-full h-full rounded-full overflow-hidden bg-light-200 dark:bg-dark-800">
+                  <Image
                     src={ME}
                     alt="Akande Gbolahan Emmanuel"
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    priority
                   />
                 </div>
               </div>

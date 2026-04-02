@@ -1,3 +1,5 @@
+'use client'
+
 import SectionHeading from '@components/ui/SectionHeading'
 import TimelineItem from '@components/ui/TimelineItem'
 import { experiences } from '@data/experience'
