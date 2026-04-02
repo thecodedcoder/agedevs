@@ -1,0 +1,100 @@
+import { SiSolidity, SiBitcoin } from 'react-icons/si'
+import { BiCodeAlt, BiServer, BiGlobe, BiWrench, BiBrain, BiGroup } from 'react-icons/bi'
+
+export const skillCategories = [
+  {
+    title: 'Blockchain Development',
+    icon: SiBitcoin,
+    skills: [
+      { name: 'Clarity (Stacks/Bitcoin L2)', level: 'Advanced' },
+      { name: 'Solidity (Ethereum/Base/Celo)', level: 'Intermediate' },
+      { name: 'Move (Sui)', level: 'Hackathon' },
+      { name: 'Rust (ICP canisters)', level: 'Hackathon' },
+      { name: 'Bitcoin Script', level: 'Intermediate' },
+      { name: 'Stacks.js / @stacks/connect', level: 'Advanced' },
+      { name: 'Hardhat / Foundry', level: 'Intermediate' },
+      { name: 'Clarinet', level: 'Advanced' },
+      { name: 'SIP-010 Token Standard', level: 'Experienced' },
+      { name: 'ERC-20 / ERC-4626', level: 'Intermediate' },
+    ],
+  },
+  {
+    title: 'Frontend Development',
+    icon: BiCodeAlt,
+    skills: [
+      { name: 'React.js / Next.js', level: 'Advanced' },
+      { name: 'TypeScript', level: 'Intermediate' },
+      { name: 'JavaScript (ES6+)', level: 'Advanced' },
+      { name: 'Tailwind CSS', level: 'Intermediate' },
+      { name: 'HTML / CSS', level: 'Advanced' },
+      { name: 'Framer Motion', level: 'Basic' },
+    ],
+  },
+  {
+    title: 'Backend & Data',
+    icon: BiServer,
+    skills: [
+      { name: 'Node.js / Express', level: 'Experienced' },
+      { name: 'Python', level: 'Intermediate' },
+      { name: 'Rust', level: 'Learning' },
+      { name: 'MongoDB', level: 'Intermediate' },
+      { name: 'PostgreSQL / MySQL', level: 'Intermediate' },
+      { name: 'REST APIs', level: 'Experienced' },
+    ],
+  },
+  {
+    title: 'Blockchain Ecosystems',
+    icon: BiGlobe,
+    skills: [
+      { name: 'Stacks (Bitcoin L2)', level: 'Advanced' },
+      { name: 'Ethereum', level: 'Intermediate' },
+      { name: 'Base (Coinbase L2)', level: 'Intermediate' },
+      { name: 'Celo', level: 'Intermediate' },
+      { name: 'Polkadot / OriginTrail', level: 'Hackathon' },
+      { name: 'Sui', level: 'Hackathon' },
+      { name: 'ICP / Morph L2', level: 'Hackathon' },
+    ],
+  },
+  {
+    title: 'Developer Tools',
+    icon: BiWrench,
+    skills: [
+      { name: 'Git / GitHub', level: 'Advanced' },
+      { name: 'Clarinet', level: 'Advanced' },
+      { name: 'Vercel / Netlify', level: 'Experienced' },
+      { name: 'Linux', level: 'Experienced' },
+      { name: 'dkg.js (OriginTrail)', level: 'Hackathon' },
+      { name: 'Vite', level: 'Intermediate' },
+    ],
+  },
+  {
+    title: 'AI & Emerging Tech',
+    icon: BiBrain,
+    skills: [
+      { name: 'Claude API Integration', level: 'Experienced' },
+      { name: 'AI Agent Development', level: 'Intermediate' },
+      { name: 'AI-Assisted Development', level: 'Experienced' },
+      { name: 'Product-Oriented AI Thinking', level: 'Intermediate' },
+      { name: 'SQL', level: 'Experienced' },
+      { name: 'Pandas / NumPy', level: 'Intermediate' },
+      { name: 'Data Visualization', level: 'Intermediate' },
+      { name: 'Python Automation', level: 'Experienced' },
+      { name: 'Groq API Integration', level: 'Experienced' },
+      { name: 'Chatbot Development', level: 'Experienced' },
+      { name: 'Workflow Automation', level: 'Experienced' },
+      { name: 'ReportLab PDF Generation', level: 'Intermediate' },
+    ],
+  },
+  {
+    title: 'DevRel & Soft Skills',
+    icon: BiGroup,
+    skills: [
+      { name: 'Developer Onboarding', level: 'Advanced' },
+      { name: 'Technical Content Creation', level: 'Advanced' },
+      { name: 'Curriculum Design', level: 'Experienced' },
+      { name: 'Community Building', level: 'Experienced' },
+      { name: 'Workshop Facilitation', level: 'Experienced' },
+      { name: 'Documentation', level: 'Advanced' },
+    ],
+  },
+]
