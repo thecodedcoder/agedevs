@@ -2,13 +2,13 @@ import './globals.css'
 
 export const metadata = {
   title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-  description: 'Data analyst, AI automation specialist, and blockchain engineer building intelligent automation tools, data pipelines, and AI-powered applications.',
-  keywords: 'data analyst, AI automation, Python, chatbot development, blockchain developer, Clarity, Solidity, Stacks, Nigeria',
+  description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
+  keywords: 'data analyst Nigeria, AI automation specialist, Python developer, chatbot development, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
   authors: [{ name: 'Akande Gbolahan Emmanuel' }],
   metadataBase: new URL('https://agedevs.com'),
   openGraph: {
     title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-    description: 'Data analyst, AI automation specialist, and blockchain engineer building intelligent automation tools, data pipelines, and AI-powered applications.',
+    description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
     url: 'https://agedevs.com',
     siteName: 'Agedevs',
     images: [
@@ -22,9 +22,30 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-    description: 'Data analyst, AI automation specialist, and blockchain engineer building intelligent automation tools, data pipelines, and AI-powered applications.',
+    description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
     images: ['/Age_logo.png'],
   },
+}
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Akande Gbolahan Emmanuel',
+  url: 'https://agedevs.com',
+  image: 'https://agedevs.com/Age_logo.png',
+  jobTitle: 'Data Analyst & AI Automation Specialist',
+  description: 'Python data analyst and AI automation specialist building customer segmentation pipelines, AI chatbots, automated workflows, and blockchain applications.',
+  knowsAbout: [
+    'Data Analysis', 'Python', 'Pandas', 'SQL', 'AI Automation',
+    'Chatbot Development', 'Groq API', 'RFM Customer Segmentation',
+    'Blockchain Development', 'Clarity Smart Contracts', 'Node.js', 'React',
+  ],
+  nationality: { '@type': 'Country', name: 'Nigeria' },
+  sameAs: [
+    'https://github.com/thecodedcoder',
+    'https://linkedin.com/in/gbolahan-akande-079ba814b',
+  ],
+  worksFor: { '@type': 'Organization', name: 'LAB (Let Africa Build)' },
 }
 
 export default function RootLayout({ children }) {
@@ -34,6 +55,10 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </head>
       <body className="font-sans">
         {children}
