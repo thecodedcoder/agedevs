@@ -13,7 +13,7 @@ export const metadata = {
     siteName: 'Agedevs',
     images: [
       {
-        url: '/Age_logo.png',
+        url: '/proF1.png',
         alt: 'Akande Gbolahan Emmanuel - Data Analyst & AI Automation Specialist',
       },
     ],
@@ -23,7 +23,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
     description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
-    images: ['/Age_logo.png'],
+    images: ['/proF1.png'],
   },
 }
 
@@ -32,7 +32,7 @@ const structuredData = {
   '@type': 'Person',
   name: 'Akande Gbolahan Emmanuel',
   url: 'https://agedevs.com',
-  image: 'https://agedevs.com/Age_logo.png',
+  image: 'https://agedevs.com/proF1.png',
   jobTitle: 'Data Analyst & AI Automation Specialist',
   description: 'Python data analyst and AI automation specialist building customer segmentation pipelines, AI chatbots, automated workflows, and blockchain applications.',
   knowsAbout: [
