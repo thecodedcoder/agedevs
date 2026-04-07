@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og'
 import { readFileSync } from 'fs'
 import { join } from 'path'
+import sharp from 'sharp'
 
 export const runtime = 'nodejs'
 export const alt = 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer'
@@ -8,8 +9,12 @@ export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
 export default async function Image() {
-  const photoData = readFileSync(join(process.cwd(), 'public/proF1.png'))
-  const photoBase64 = `data:image/png;base64,${photoData.toString('base64')}`
+  const rawPhoto = readFileSync(join(process.cwd(), 'public/proF1.png'))
+  const resized = await sharp(rawPhoto)
+    .resize(504, 630, { fit: 'cover', position: 'top' })
+    .jpeg({ quality: 80 })
+    .toBuffer()
+  const photoBase64 = `data:image/jpeg;base64,${resized.toString('base64')}`
 
   return new ImageResponse(
     (

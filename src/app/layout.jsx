@@ -11,12 +11,21 @@ export const metadata = {
     description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
     url: 'https://agedevs.com',
     siteName: 'Agedevs',
+    images: [
+      {
+        url: '/proF1.png',
+        width: 1024,
+        height: 1280,
+        alt: 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer',
+      },
+    ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
     description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
+    images: ['/proF1.png'],
   },
 }
 
