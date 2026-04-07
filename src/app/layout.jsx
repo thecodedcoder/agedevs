@@ -1,14 +1,14 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-  description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
+  title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+  description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
   keywords: 'data analyst Nigeria, AI automation specialist, Python developer, chatbot development, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
   authors: [{ name: 'Akande Gbolahan Emmanuel' }],
   metadataBase: new URL('https://agedevs.com'),
   openGraph: {
-    title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-    description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
+    title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+    description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
     url: 'https://agedevs.com',
     siteName: 'Agedevs',
     images: [
@@ -21,8 +21,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akande Gbolahan Emmanuel | Data Analyst & AI Automation Specialist',
-    description: 'Python data analyst and AI automation specialist in Nigeria. I build customer segmentation pipelines, AI chatbots, and automated workflows. Available for freelance projects.',
+    title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+    description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
     images: ['/proF1.png'],
   },
 }
