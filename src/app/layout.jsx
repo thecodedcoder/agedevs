@@ -1,13 +1,13 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+  title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
   description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
   keywords: 'data analyst Nigeria, AI automation specialist, Python developer, chatbot development, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
   authors: [{ name: 'Akande Gbolahan Emmanuel' }],
   metadataBase: new URL('https://agedevs.com'),
   openGraph: {
-    title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+    title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
     description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
     url: 'https://agedevs.com',
     siteName: 'Agedevs',
@@ -15,7 +15,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akande Gbolahan | AI, Data & Blockchain Engineer',
+    title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
     description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
   },
 }

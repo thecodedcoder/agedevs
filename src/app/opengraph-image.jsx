@@ -3,7 +3,7 @@ import { readFileSync } from 'fs'
 import { join } from 'path'
 
 export const runtime = 'nodejs'
-export const alt = 'Akande Gbolahan Emmanuel - Data Analyst & AI Automation Specialist'
+export const alt = 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -134,16 +134,21 @@ export default async function Image() {
             ))}
           </div>
 
-          {/* CTA */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          {/* CTA button */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+          }}>
             <div style={{
-              width: '8px',
-              height: '8px',
-              borderRadius: '50%',
-              background: '#4DB5FF',
-            }} />
-            <div style={{ color: '#4DB5FF', fontSize: '16px' }}>
-              Available for freelance projects
+              padding: '10px 24px',
+              borderRadius: '24px',
+              background: 'linear-gradient(90deg, #5546FF, #4DB5FF)',
+              color: '#ffffff',
+              fontSize: '15px',
+              fontWeight: 'bold',
+            }}>
+              Hire Me - Open to Freelance
             </div>
           </div>
         </div>
@@ -153,11 +158,9 @@ export default async function Image() {
           position: 'absolute',
           right: '0',
           top: '0',
-          bottom: '0',
           width: '540px',
+          height: '630px',
           display: 'flex',
-          alignItems: 'flex-end',
-          justifyContent: 'center',
           overflow: 'hidden',
         }}>
           {/* Fade left edge */}
@@ -165,20 +168,21 @@ export default async function Image() {
             position: 'absolute',
             left: '0',
             top: '0',
-            bottom: '0',
             width: '220px',
+            height: '630px',
             background: 'linear-gradient(90deg, #0a0a14 0%, transparent 100%)',
             zIndex: 2,
           }} />
 
-          {/* Photo */}
+          {/* Photo with explicit pixel dimensions */}
           <img
             src={photoBase64}
+            width={504}
+            height={630}
             style={{
-              height: '100%',
-              width: 'auto',
-              objectFit: 'cover',
-              objectPosition: 'top center',
+              position: 'absolute',
+              right: '0',
+              top: '0',
             }}
           />
 
@@ -187,7 +191,7 @@ export default async function Image() {
             position: 'absolute',
             bottom: '0',
             left: '0',
-            right: '0',
+            width: '540px',
             height: '120px',
             background: 'linear-gradient(0deg, #0a0a14 0%, transparent 100%)',
             zIndex: 2,
