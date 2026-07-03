@@ -1,6 +1,6 @@
 # Akande Gbolahan Emmanuel | Portfolio
 
-Personal portfolio website showcasing blockchain development work, technical writing, and projects across 7+ blockchain ecosystems.
+Personal portfolio website showcasing data analysis work, blockchain development work, technical writing, and projects across 7+ blockchain ecosystems.
 
 ## Tech Stack
 
