@@ -62,14 +62,16 @@ const Hero = () => {
               variants={itemVariants}
               className="text-lg md:text-xl font-semibold text-stacks dark:text-stacks-light mb-4"
             >
-              Data Analyst · AI Automation Specialist · Blockchain Engineer | Technical Instructor
+              {/* Data Analyst · AI Automation Specialist · Blockchain Engineer | Technical Instructor */}
+              Data Analyst · Blockchain Engineer | Technical Instructor
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-base text-light-600 dark:text-light-400 mb-6 max-w-lg leading-relaxed"
             >
-              I turn raw data into decisions, build AI-powered automation tools, and build blockchain systems, with 5+ years of hands-on experience across data analysis, chatbot development, and multi-chain DApps.
+              {/* I turn raw data into decisions, build AI-powered automation tools, and build blockchain systems, with 5+ years of hands-on experience across data analysis, chatbot development, and multi-chain DApps. */}
+              I turn raw data into decisions and build blockchain systems, with 5+ years of hands-on experience across data analysis and multi-chain DApps.
             </motion.p>
 
             {/* Ecosystem badges */}

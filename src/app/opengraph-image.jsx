@@ -4,7 +4,8 @@ import { join } from 'path'
 import sharp from 'sharp'
 
 export const runtime = 'nodejs'
-export const alt = 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer'
+// Original: export const alt = 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer'
+export const alt = 'Akande Gbolahan Emmanuel - Data & Blockchain Engineer'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -117,7 +118,8 @@ export default async function Image() {
             lineHeight: '1.5',
             marginBottom: '26px',
           }}>
-            Data Analyst · AI Automation Specialist · Blockchain Engineer
+            {/* Data Analyst · AI Automation Specialist · Blockchain Engineer */}
+            Data Analyst · Blockchain Engineer
           </div>
 
           {/* Skill tags */}

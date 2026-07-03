@@ -1,14 +1,18 @@
 import './globals.css'
 
+// Original metadata (AI Automation branding) — kept for easy restore:
+// title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
+// description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
+// keywords: 'data analyst Nigeria, AI automation specialist, Python developer, chatbot development, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
 export const metadata = {
-  title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
-  description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
-  keywords: 'data analyst Nigeria, AI automation specialist, Python developer, chatbot development, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
+  title: 'Akande Gbolahan | Data & Blockchain',
+  description: 'Data analyst and blockchain engineer in Nigeria. Building data pipelines and smart contracts. Open to freelance.',
+  keywords: 'data analyst Nigeria, Python developer, customer segmentation, RFM analysis, blockchain developer, Clarity, Solidity, Stacks, freelance data analyst',
   authors: [{ name: 'Akande Gbolahan Emmanuel' }],
   metadataBase: new URL('https://agedevs.com'),
   openGraph: {
-    title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
-    description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
+    title: 'Akande Gbolahan | Data & Blockchain',
+    description: 'Data analyst and blockchain engineer in Nigeria. Building data pipelines and smart contracts. Open to freelance.',
     url: 'https://agedevs.com',
     siteName: 'Agedevs',
     images: [
@@ -16,15 +20,15 @@ export const metadata = {
         url: '/proF1.png',
         width: 1024,
         height: 1280,
-        alt: 'Akande Gbolahan Emmanuel - AI Automation, Data & Blockchain Engineer',
+        alt: 'Akande Gbolahan Emmanuel - Data & Blockchain Engineer',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akande Gbolahan | AI Automation, Data & Blockchain',
-    description: 'AI automation specialist, data analyst and blockchain engineer in Nigeria. Building AI chatbots, data pipelines and smart contracts. Open to freelance.',
+    title: 'Akande Gbolahan | Data & Blockchain',
+    description: 'Data analyst and blockchain engineer in Nigeria. Building data pipelines and smart contracts. Open to freelance.',
     images: ['/proF1.png'],
   },
 }
@@ -35,11 +39,14 @@ const structuredData = {
   name: 'Akande Gbolahan Emmanuel',
   url: 'https://agedevs.com',
   image: 'https://agedevs.com/proF1.png',
-  jobTitle: 'Data Analyst & AI Automation Specialist',
-  description: 'Python data analyst and AI automation specialist building customer segmentation pipelines, AI chatbots, automated workflows, and blockchain applications.',
+  // Original: jobTitle: 'Data Analyst & AI Automation Specialist',
+  jobTitle: 'Data Analyst & Blockchain Engineer',
+  // Original: description: 'Python data analyst and AI automation specialist building customer segmentation pipelines, AI chatbots, automated workflows, and blockchain applications.',
+  description: 'Python data analyst building customer segmentation pipelines, automated workflows, and blockchain applications.',
   knowsAbout: [
-    'Data Analysis', 'Python', 'Pandas', 'SQL', 'AI Automation',
-    'Chatbot Development', 'Groq API', 'RFM Customer Segmentation',
+    'Data Analysis', 'Python', 'Pandas', 'SQL',
+    // 'AI Automation', 'Chatbot Development',
+    'Groq API', 'RFM Customer Segmentation',
     'Blockchain Development', 'Clarity Smart Contracts', 'Node.js', 'React',
   ],
   nationality: { '@type': 'Country', name: 'Nigeria' },

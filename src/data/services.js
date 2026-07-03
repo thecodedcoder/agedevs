@@ -2,14 +2,15 @@ import { BiCodeBlock, BiBook, BiCodeAlt, BiConversation, BiBarChartAlt2 } from '
 
 export const services = [
   {
-    title: 'Data Analysis & AI Automation',
+    // Original title: 'Data Analysis & AI Automation',
+    title: 'Data Analysis',
     icon: BiBarChartAlt2,
     items: [
       'Business data analysis and reporting',
       'Customer segmentation (RFM)',
-      'AI chatbot development',
+      // 'AI chatbot development',
       'Automated workflow scripting in Python',
-      'API integration and AI-powered automation',
+      // 'API integration and AI-powered automation',
       'CSV data cleaning pipelines',
     ],
   },

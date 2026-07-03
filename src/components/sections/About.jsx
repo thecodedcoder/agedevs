@@ -13,7 +13,7 @@ const stats = [
   { number: '12', suffix: '+', label: 'Blockchain DApps', icon: BiCodeBlock },
   { number: '7', suffix: '+', label: 'Ecosystems', icon: BiGlobe },
   { number: '10', suffix: '+', label: 'Devs Onboarded', icon: BiGroup },
-  { number: '3', suffix: '', label: 'AI Automation Projects', icon: BiBrain },
+  // { number: '3', suffix: '', label: 'AI Automation Projects', icon: BiBrain },
   { number: '5', suffix: '', label: 'Data Analysis Projects', icon: BiBarChartAlt2 },
 ]
 
@@ -64,8 +64,9 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="space-y-4"
             >
+              {/* Original: I'm Akande Gbolahan, a data analyst, AI automation specialist, and blockchain engineer based in Nigeria. I hold a Statistics background from the Federal University of Agriculture, Abeokuta (FUNAAB), which grounds my analytical thinking. Over 5+ years I've built customer segmentation pipelines, AI-powered chatbots, automated Python workflows, and decentralised applications, delivering end-to-end solutions across data, AI, and Web3. */}
               <p className="text-sm md:text-base text-light-600 dark:text-light-400 leading-relaxed">
-                I'm Akande Gbolahan, a data analyst, AI automation specialist, and blockchain engineer based in Nigeria. I hold a Statistics background from the Federal University of Agriculture, Abeokuta (FUNAAB), which grounds my analytical thinking. Over 5+ years I've built customer segmentation pipelines, AI-powered chatbots, automated Python workflows, and decentralised applications, delivering end-to-end solutions across data, AI, and Web3.
+                I'm Akande Gbolahan, a data analyst and blockchain engineer based in Nigeria. I hold a Statistics background from the Federal University of Agriculture, Abeokuta (FUNAAB), which grounds my analytical thinking. Over 5+ years I've built customer segmentation pipelines, automated Python workflows, and decentralised applications, delivering end-to-end solutions across data and Web3.
               </p>
               <p className="text-sm md:text-base text-light-600 dark:text-light-400 leading-relaxed">
                 My entry into blockchain was through the Stacks ecosystem (Bitcoin's programmable Layer 2), where I learned Clarity smart contract development and quickly became involved in developer onboarding. Through Web3Bridge Nigeria, I introduced Web2 developers transitioning into Web3 to Clarity and Stacks. Ken Rogers, Stacks' Head of DevRel, acknowledged the referrals I generated, and that experience got me more interested in Developer Relations.
