@@ -41,4 +41,11 @@ export const experiences = [
     description: 'Completed a professional software engineering certificate course building foundational skills in software development, team collaboration, and technical problem-solving. This program strengthened the engineering discipline underpinning all subsequent blockchain work.',
     impact: 'Professional certification from a globally recognized African tech education program.',
   },
+  {
+    org: 'DAAR Communications Plc (AIT)',
+    role: 'Compliance Officer / SIWES Intern',
+    period: '2021 - 2022',
+    description: 'Started as a SIWES intern on the compliance/monitoring team, then continued as a Compliance Officer. Monitored broadcast campaigns and produced certificate-of-broadcast compliance reports for advertisers. Fixed problems with the broadcast monitoring software, cable transmission, and antenna whenever they went down, stepping in before professionals were called.',
+    impact: 'Kept broadcast compliance monitoring running by resolving technical issues on the spot, avoiding data loss during outages.',
+  },
 ]
