@@ -4,7 +4,7 @@ export const experiences = [
     role: 'Technical Instructor',
     period: '2025 - Present',
     description: 'Teaching blockchain development and AI-powered tools (vibe coding with AI) to emerging developers in a youth digital empowerment program. Designing curriculum, leading hands-on sessions, and mentoring students transitioning from Web2 to Web3.',
-    impact: 'Actively onboarding the next generation of African blockchain developers through structured education programs.',
+    impact: 'Helping emerging African developers build blockchain and AI skills through a structured education program.',
   },
   {
     org: 'Stacks Ecosystem / Ascent Program',
@@ -25,14 +25,14 @@ export const experiences = [
     role: 'Active Participant - Month 2',
     period: '2026 - Present',
     description: 'Currently in the BOSS program run by Chaincode Labs in partnership with Btrust Builders, a 3-month structured program for developers serious about Bitcoin open-source development. Completed the Saving Satoshi pre-challenge (10 chapters of Bitcoin cryptography) to qualify. Now working through programming challenges covering raw transactions, Lightning Network routing, and Bitcoin protocol internals using Rust.',
-    impact: 'Actively building toward becoming a contributor to Bitcoin open-source software through one of the most rigorous Bitcoin developer programs.',
+    impact: 'Building toward contributing to Bitcoin open-source software through a competitive, structured developer program.',
   },
   {
     org: 'Grow Care Agency',
     role: 'Virtual Interview Lead',
     period: '2023 - 2026',
     description: 'Led the recruitment and screening process for sensitive caregiving roles. Conducted structured interviews, assessed candidate communication skills and emotional intelligence, and made informed hiring recommendations that directly influenced outcomes.',
-    impact: 'Delegated full interview authority, reflecting executive-level trust in judgment and professionalism.',
+    impact: 'Trusted to independently conduct interviews and make hiring recommendations.',
   },
   {
     org: 'ALX Africa',

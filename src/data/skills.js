@@ -1,5 +1,5 @@
 import { SiSolidity, SiBitcoin } from 'react-icons/si'
-import { BiCodeAlt, BiServer, BiGlobe, BiWrench, BiBrain, BiGroup } from 'react-icons/bi'
+import { BiCodeAlt, BiServer, BiGlobe, BiWrench, BiBrain, BiGroup, BiSupport } from 'react-icons/bi'
 
 export const skillCategories = [
   {
@@ -83,6 +83,18 @@ export const skillCategories = [
       { name: 'Chatbot Development', level: 'Experienced' },
       { name: 'Workflow Automation', level: 'Experienced' },
       { name: 'ReportLab PDF Generation', level: 'Intermediate' },
+    ],
+  },
+  {
+    title: 'App & System Support',
+    icon: BiSupport,
+    skills: [
+      { name: 'Software Troubleshooting', level: 'Experienced' },
+      { name: 'System Support', level: 'Experienced' },
+      { name: 'User Support', level: 'Experienced' },
+      { name: 'Website Maintenance', level: 'Experienced' },
+      { name: 'Technical Documentation', level: 'Advanced' },
+      { name: 'Remote Support', level: 'Experienced' },
     ],
   },
   {

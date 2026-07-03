@@ -22,22 +22,6 @@ Personal portfolio website showcasing blockchain development work, technical wri
 - Work experience timeline
 - Contact form with EmailJS
 
-## Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
 ## Project Structure
 
 ```
